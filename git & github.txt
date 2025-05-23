@@ -1,0 +1,49 @@
+Git : Git is a distributed version control software. it is developed and maintained by Linux. 
+   download and install git
+   goto cmd propmt, type git -v
+
+   commands:
+   goto folder in terminal and type
+   1. git init  -- it initializes the git
+   2. git add .  -- add all files to git to track
+   3. git commit -m "message" -- it will commit the complete code with a message
+
+   mentioning who you are:
+   git config --global user.name "your username"
+   git config --global user.email "your email id"
+
+   again repeat step 2 and 3
+
+
+   4. git remote add origin "link"  -- it makes a connection betweem local folder/repository to thhe cloud repository.
+
+   5. git push -u origin main/master
+
+cloning , forking, branching,merging:
+
+cloning is the copy that you download from a repository
+git clone link
+
+forking is the copy repository created with synchronisation to the main repository.
+
+for open source contribution, follow below steps:
+fork the original repository , it will make your copy repository
+clone your copy repository into VScode
+do the changes
+add to git, commit and push to your copy repository
+create a pull request to the original repository for merging your code
+once it is accepted, your code will be merged and you are a contributor now
+
+branches contains individual code segments which can be merged as per requirements. it helps in managing multiple use cases or environments
+
+create a new branch : git branch branch-name
+goto the branch : git checkout branchname
+
+
+
+
+
+
+
+
+
